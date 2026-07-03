@@ -1,4 +1,4 @@
-сcreate table customers (
+create table customers (
 	id serial primary key,
 	email varchar(100) unique not null,
 	name varchar(100) not null
